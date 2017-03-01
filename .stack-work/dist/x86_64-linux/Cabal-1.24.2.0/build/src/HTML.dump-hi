@@ -1,0 +1,1107 @@
+
+==================== FINAL INTERFACE ====================
+2017-03-01 06:09:27.189714 UTC
+
+interface haskellHtml-0.1.0.0-BECCdle20pIAvIPQ9BjiaC:HTML 8002
+  interface hash: 9097e13330cb07117071f041de097b9f
+  ABI hash: 85be46725ee12518b2780ec989a590aa
+  export-list hash: bdef6e382438a5b068006ac6be8e46e1
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 7321bd8d62a18cfec061bf7c08e6e70c
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  HTML._class
+  HTML.a
+  HTML.attribute
+  HTML.elem
+  HTML.height
+  HTML.href
+  HTML.img
+  HTML.p
+  HTML.render
+  HTML.src
+  HTML.text
+  HTML.width
+  HTML.Attribute
+  HTML.AttributeKey
+  HTML.Content
+  HTML.ContentF
+  HTML.Element
+  HTML.IsValue|{HTML.toValue}
+module dependencies:
+package dependencies: StateVar-1.1.0.4@StateVar-1.1.0.4-5dJbnTVECtEAhfJXPZKdbO
+                      adjunctions-4.3@adjunctions-4.3-5CqTSM7liCdC9cb4N2IolK
+                      array-0.5.1.1@array-0.5.1.1 base-4.9.1.0
+                      base-orphans-0.5.4@base-orphans-0.5.4-ABoxiBf7nXc7Qqh66CgYc9
+                      bifunctors-5.4.1@bifunctors-5.4.1-B27lbd71hBJ2VXEJmV4sQN
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      comonad-5@comonad-5-ETWy8l913C0Kq2HEAZg6Cb
+                      containers-0.5.7.1@containers-0.5.7.1
+                      contravariant-1.4@contravariant-1.4-ETyVlWBlFwj93UDOdH22No
+                      deepseq-1.4.2.0@deepseq-1.4.2.0
+                      distributive-0.5.2@distributive-0.5.2-JCgfTXNR3ywAyV7fFWIBI5
+                      exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U
+                      free-4.12.4@free-4.12.4-Ab5EFvlPq2CHsY4aRoQQaZ
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.5.0@hashable-1.2.5.0-F4MWeNuv2sjJRqBd2T5ul4
+                      integer-gmp-1.0.0.1
+                      kan-extensions-5.0.1@kan-extensions-5.0.1-11Ov83x9jJMC3tpuqa2lhG
+                      lens-4.15.1@lens-4.15.1-JIqePnD6ntW5ZEF4vrpOVi
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      prelude-extras-0.4.0.3@prelude-extras-0.4.0.3-BhL9U5k7NtGJn1itwIHt2Y
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.1.0@primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH
+                      profunctors-5.2@profunctors-5.2-LrJGukLpH0xCNgg3bhdC7E
+                      reflection-2.1.2@reflection-2.1.2-Bem12O1xFGSHr4C2Hyu1c4
+                      semigroupoids-5.1@semigroupoids-5.1-Bv4gPJlZIgxJuJyrAzyy1i
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unordered-containers-0.2.7.2@unordered-containers-0.2.7.2-8AmrySQXjRGF6VciYs51fM
+                      vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.5.0@hashable-1.2.5.0-F4MWeNuv2sjJRqBd2T5ul4:Data.Hashable.Generic
+         reflection-2.1.2@reflection-2.1.2-Bem12O1xFGSHr4C2Hyu1c4:Data.Reflection
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Show
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed
+family instance modules: adjunctions-4.3@adjunctions-4.3-5CqTSM7liCdC9cb4N2IolK:Data.Functor.Rep
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         bifunctors-5.4.1@bifunctors-5.4.1-B27lbd71hBJ2VXEJmV4sQN:Data.Bifunctor.Biff
+                         bifunctors-5.4.1@bifunctors-5.4.1-B27lbd71hBJ2VXEJmV4sQN:Data.Bifunctor.Clown
+                         bifunctors-5.4.1@bifunctors-5.4.1-B27lbd71hBJ2VXEJmV4sQN:Data.Bifunctor.Flip
+                         bifunctors-5.4.1@bifunctors-5.4.1-B27lbd71hBJ2VXEJmV4sQN:Data.Bifunctor.Join
+                         bifunctors-5.4.1@bifunctors-5.4.1-B27lbd71hBJ2VXEJmV4sQN:Data.Bifunctor.Joker
+                         bifunctors-5.4.1@bifunctors-5.4.1-B27lbd71hBJ2VXEJmV4sQN:Data.Bifunctor.Product
+                         bifunctors-5.4.1@bifunctors-5.4.1-B27lbd71hBJ2VXEJmV4sQN:Data.Bifunctor.Sum
+                         bifunctors-5.4.1@bifunctors-5.4.1-B27lbd71hBJ2VXEJmV4sQN:Data.Bifunctor.Tannen
+                         bifunctors-5.4.1@bifunctors-5.4.1-B27lbd71hBJ2VXEJmV4sQN:Data.Bifunctor.Wrapped
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         kan-extensions-5.0.1@kan-extensions-5.0.1-11Ov83x9jJMC3tpuqa2lhG:Data.Functor.Day
+                         kan-extensions-5.0.1@kan-extensions-5.0.1-11Ov83x9jJMC3tpuqa2lhG:Data.Functor.Yoneda
+                         lens-4.15.1@lens-4.15.1-JIqePnD6ntW5ZEF4vrpOVi:Control.Lens.At
+                         lens-4.15.1@lens-4.15.1-JIqePnD6ntW5ZEF4vrpOVi:Control.Lens.Internal.Indexed
+                         lens-4.15.1@lens-4.15.1-JIqePnD6ntW5ZEF4vrpOVi:Control.Lens.Reified
+                         lens-4.15.1@lens-4.15.1-JIqePnD6ntW5ZEF4vrpOVi:Control.Lens.Tuple
+                         lens-4.15.1@lens-4.15.1-JIqePnD6ntW5ZEF4vrpOVi:Control.Lens.Wrapped
+                         lens-4.15.1@lens-4.15.1-JIqePnD6ntW5ZEF4vrpOVi:Control.Lens.Zoom
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primitive-0.6.1.0-6AbSTw9JXz141LE5p6LGH:Control.Monad.Primitive
+                         profunctors-5.2@profunctors-5.2-LrJGukLpH0xCNgg3bhdC7E:Data.Profunctor.Rep
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-Ji7hMs2U4BkBwavd4taEVR:Data.Text.Lazy
+                         unordered-containers-0.2.7.2@unordered-containers-0.2.7.2-8AmrySQXjRGF6VciYs51fM:Data.HashMap.Base
+                         unordered-containers-0.2.7.2@unordered-containers-0.2.7.2-8AmrySQXjRGF6VciYs51fM:Data.HashSet
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Primitive
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Storable
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed
+                         vector-0.11.0.0@vector-0.11.0.0-LMwQhhnXj8U3T5Bm1JFxG:Data.Vector.Unboxed.Base
+import  -/  base-4.9.1.0:Data.List 07ae2acca6538aa0800bd0a993ac6ac1
+import  -/  base-4.9.1.0:Data.Traversable 556020d7cf3c4a34a774600512918a37
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Err 3bba35a16538d33d424682ce66876cdd
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  free-4.12.4@free-4.12.4-Ab5EFvlPq2CHsY4aRoQQaZ:Control.Monad.Free 2de5edc93638db8905dc0ed01e46317b
+import  -/  free-4.12.4@free-4.12.4-Ab5EFvlPq2CHsY4aRoQQaZ:Control.Monad.Free.Class e3aaac937ab4bd798677e13eab0bd61a
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  lens-4.15.1@lens-4.15.1-JIqePnD6ntW5ZEF4vrpOVi:Control.Lens f4965ea8887193053529b8d20cbe4ce8
+import  -/  lens-4.15.1@lens-4.15.1-JIqePnD6ntW5ZEF4vrpOVi:Control.Lens.Getter 423d56ab05b756342f1c64e368b1de4f
+import  -/  lens-4.15.1@lens-4.15.1-JIqePnD6ntW5ZEF4vrpOVi:Control.Lens.TH 57141baf3525743164cffe7cce0b0346
+import  -/  lens-4.15.1@lens-4.15.1-JIqePnD6ntW5ZEF4vrpOVi:Control.Lens.Type b57a00f310e97c0ad1e0ea08f62015a7
+import  -/  mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6:Control.Monad.State.Lazy 3bce07487954e2c74715e207af0f6091
+import  -/  mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6:Control.Monad.Writer.Class 5f90a2822e73687bf78c6013cd144b94
+import  -/  mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6:Control.Monad.Writer.Lazy fb01264ab78b0545cf29c60113fc1aa8
+import  -/  transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Writer.Lazy 318e0ea1f5d7e430a880cfb1b1a207b6
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fFunctorContentF :: GHC.Base.Functor HTML.ContentF
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ HTML.ContentF
+                  HTML.$fFunctorContentF_$cfmap
+                  HTML.$fFunctorContentF_$c<$ -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fFunctorContentF_$c<$ :: a -> HTML.ContentF b -> HTML.ContentF a
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a2 @ b (eta :: a2) (eta1 :: HTML.ContentF b) ->
+                 case eta1 of wild {
+                   HTML.TextContent str x -> HTML.TextContent @ a2 str eta
+                   HTML.ElementContent elt x -> HTML.ElementContent @ a2 elt eta }) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fFunctorContentF_$cfmap ::
+    (a -> b) -> HTML.ContentF a -> HTML.ContentF b
+  {- Arity: 2, HasNoCafRefs, Strictness: <L,1*C1(U)><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a2 @ b (f :: a2 -> b) (ds :: HTML.ContentF a2) ->
+                 case ds of wild {
+                   HTML.TextContent str x -> HTML.TextContent @ b str (f x)
+                   HTML.ElementContent elt x
+                   -> HTML.ElementContent @ b elt (f x) }) -}
+6e458b192859013fb0a9cca1cda86c64
+  $fIsValueInt :: HTML.IsValue GHC.Types.Int
+  DFunId
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(U)>m2,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                HTML.$fIsValueInt_$ctoValue
+                  `cast`
+                (Sym (HTML.N:IsValue[0] <GHC.Types.Int>_N)) -}
+497132ea641be76b5234da8e51cd75cf
+  $fIsValueInt_$ctoValue :: GHC.Types.Int -> GHC.Base.String
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(U)>m2,
+     Unfolding: InlineRule (0, True, True) GHC.Show.$fShowInt_$cshow -}
+6e458b192859013fb0a9cca1cda86c64
+  $fIsValue[] :: HTML.IsValue GHC.Base.String
+  DFunId
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                (GHC.Base.id @ GHC.Base.String)
+                  `cast`
+                (Sym (HTML.N:IsValue[0] <GHC.Base.String>_N)) -}
+ea05abc0b68642114669410645ed6c76
+  $fShowAttribute :: GHC.Show.Show HTML.Attribute
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ HTML.Attribute
+                  HTML.$fShowAttribute_$cshowsPrec
+                  HTML.$fShowAttribute_$cshow
+                  HTML.$fShowAttribute_$cshowList -}
+ea05abc0b68642114669410645ed6c76
+  $fShowAttribute1 :: HTML.Attribute -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: HTML.Attribute) (w1 :: GHC.Base.String) ->
+                 case w of ww { HTML.Attribute ww1 ww2 ->
+                 HTML.$w$cshowsPrec 0# ww1 ww2 w1 }) -}
+17edd697a15bc1d582156bb0d8b4a356
+  $fShowAttribute2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+a3e8674214479582d8800408d68147e2
+  $fShowAttribute3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_value = "#) -}
+0f29ca1a4c396d5deca42b90666c19c8
+  $fShowAttribute4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
+0c83657b0a5149f041bdbc5dd0cc7496
+  $fShowAttribute5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_key = "#) -}
+d5f99660916bdc52ab44502bc1291fab
+  $fShowAttribute6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Attribute {"#) -}
+ea05abc0b68642114669410645ed6c76
+  $fShowAttribute_$cshow :: HTML.Attribute -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: HTML.Attribute) ->
+                 HTML.$fShowAttribute_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+ea05abc0b68642114669410645ed6c76
+  $fShowAttribute_$cshowList :: [HTML.Attribute] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ HTML.Attribute
+                   HTML.$fShowAttribute1) -}
+ea05abc0b68642114669410645ed6c76
+  $fShowAttribute_$cshowsPrec ::
+    GHC.Types.Int -> HTML.Attribute -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(1*U,1*U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: HTML.Attribute)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { HTML.Attribute ww3 ww4 ->
+                 HTML.$w$cshowsPrec ww1 ww3 ww4 w2 } }) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowContentF ::
+    GHC.Show.Show a => GHC.Show.Show (HTML.ContentF a)
+  DFunId
+  {- Arity: 1, Strictness: <L,U(C(C1(U)),A,A)>m,
+     Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun: @ a2 ($dShow :: GHC.Show.Show a2).
+                  @ (HTML.ContentF a2)
+                  (HTML.$fShowContentF_$cshowsPrec @ a2 $dShow)
+                  (HTML.$fShowContentF_$cshow @ a2 $dShow)
+                  (HTML.$fShowContentF_$cshowList @ a2 $dShow) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowContentF1 ::
+    HTML.ContentF (Control.Monad.Free.Free HTML.ContentF ())
+    -> GHC.Show.ShowS
+  {- Arity: 1,
+     Unfolding: (\ (w :: HTML.ContentF
+                           (Control.Monad.Free.Free HTML.ContentF ())) ->
+                 HTML.$w$s$cshowsPrec 0# w) -}
+fc7351d919365af9f1b008d7225d3d98
+  $fShowContentF10 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 11#) -}
+c8ade3dc6952fe6d5a9bb698c3f13c62
+  $fShowContentF2 :: GHC.Types.Int
+  {- HasNoCafRefs, Strictness: m, Unfolding: (GHC.Types.I# 0#) -}
+b2654b06586eaa83e6e770af9151e051
+  $fShowContentF3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "ElementContent "#) -}
+b475ee6617aaf8bf1fde4faba3c365ad
+  $fShowContentF4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_content = "#) -}
+d3392266252264797982682448ae8a01
+  $fShowContentF5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_attribs = "#) -}
+f868a988762cfd17d32ff26203a2a9f1
+  $fShowContentF6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "_name = "#) -}
+91bdada896f63fa5beaaaa2a9376693a
+  $fShowContentF7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Element {"#) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowContentF8 ::
+    GHC.Show.Show
+      (HTML.ContentF (Control.Monad.Free.Free HTML.ContentF ()))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                HTML.$fShowContentF_$s$fShowContentF -}
+73234416526d55a56a7e0dc9f867da39
+  $fShowContentF9 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "TextContent "#) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowContentF_$cshow ::
+    GHC.Show.Show a => HTML.ContentF a -> GHC.Base.String
+  {- Arity: 2, Strictness: <L,1*U(1*C1(C1(U)),A,A)><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ @ a2 ($dShow :: GHC.Show.Show a2) (x :: HTML.ContentF a2) ->
+                 HTML.$fShowContentF_$cshowsPrec
+                   @ a2
+                   $dShow
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowContentF_$cshowList ::
+    GHC.Show.Show a => [HTML.ContentF a] -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,U(C(C1(U)),A,A)><S,1*U><L,U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ @ a2
+                   ($dShow :: GHC.Show.Show a2)
+                   (eta :: [HTML.ContentF a2])
+                   (eta1 :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ (HTML.ContentF a2)
+                   (HTML.$fShowContentF_$cshowsPrec @ a2 $dShow HTML.$fShowContentF2)
+                   eta
+                   eta1) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowContentF_$cshowsPrec ::
+    GHC.Show.Show a =>
+    GHC.Types.Int -> HTML.ContentF a -> GHC.Show.ShowS
+  {- Arity: 3,
+     Strictness: <L,1*U(1*C1(C1(U)),A,A)><S(S),1*U(U)><S,1*U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ @ a2
+                   (w :: GHC.Show.Show a2)
+                   (w1 :: GHC.Types.Int)
+                   (w2 :: HTML.ContentF a2) ->
+                 case w1 of ww { GHC.Types.I# ww1 ->
+                 HTML.$w$cshowsPrec1 @ a2 w ww1 w2 }) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowContentF_$s$cshow ::
+    HTML.ContentF (Control.Monad.Free.Free HTML.ContentF ())
+    -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: HTML.ContentF
+                           (Control.Monad.Free.Free HTML.ContentF ())) ->
+                 HTML.$fShowContentF_$s$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowContentF_$s$cshowList ::
+    [HTML.ContentF (Control.Monad.Free.Free HTML.ContentF ())]
+    -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (eta :: [HTML.ContentF
+                              (Control.Monad.Free.Free HTML.ContentF ())])
+                   (eta1 :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ (HTML.ContentF (Control.Monad.Free.Free HTML.ContentF ()))
+                   HTML.$fShowContentF1
+                   eta
+                   eta1) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowContentF_$s$cshowsPrec ::
+    GHC.Types.Int
+    -> HTML.ContentF (Control.Monad.Free.Free HTML.ContentF ())
+    -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S(S),1*U(U)><S,1*U>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: HTML.ContentF (Control.Monad.Free.Free HTML.ContentF ())) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 HTML.$w$s$cshowsPrec ww1 w1 }) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowContentF_$s$fShowContentF ::
+    GHC.Show.Show
+      (HTML.ContentF (Control.Monad.Free.Free HTML.ContentF ()))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (HTML.ContentF (Control.Monad.Free.Free HTML.ContentF ()))
+                  HTML.$fShowContentF_$s$cshowsPrec
+                  HTML.$fShowContentF_$s$cshow
+                  HTML.$fShowContentF_$s$cshowList -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowContentF_$s$fShowFree ::
+    GHC.Show.Show (Control.Monad.Free.Free HTML.ContentF ())
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Control.Monad.Free.Free HTML.ContentF ())
+                  (Control.Monad.Free.$fShowFree_$cshowsPrec
+                     @ HTML.ContentF
+                     @ ()
+                     HTML.$fShowContentF8
+                     GHC.Show.$fShow())
+                  (Control.Monad.Free.$fShowFree_$cshow
+                     @ HTML.ContentF
+                     @ ()
+                     HTML.$fShowContentF8
+                     GHC.Show.$fShow())
+                  HTML.$fShowContentF_$s$fShowFree_$cshowList -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowContentF_$s$fShowFree_$cshowList ::
+    [Control.Monad.Free.Free HTML.ContentF ()] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [Control.Monad.Free.Free HTML.ContentF ()])
+                   (s :: GHC.Base.String) ->
+                 GHC.Show.showList__
+                   @ (Control.Monad.Free.Free HTML.ContentF ())
+                   (Control.Monad.Free.$fShowFree_$cshowsPrec
+                      @ HTML.ContentF
+                      @ ()
+                      HTML.$fShowContentF8
+                      GHC.Show.$fShow()
+                      GHC.Show.shows22)
+                   ls
+                   s) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowElement :: GHC.Show.Show HTML.Element
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ HTML.Element
+                  HTML.$fShowElement_$cshowsPrec
+                  HTML.$fShowElement_$cshow
+                  HTML.$fShowElement_$cshowList -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowElement1 :: HTML.Element -> GHC.Show.ShowS
+  {- Arity: 1,
+     Unfolding: (\ (w :: HTML.Element) ->
+                 case w of ww { HTML.Element ww1 ww2 ww3 ->
+                 HTML.$w$cshowsPrec2 0# ww1 ww2 ww3 }) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowElement_$cshow :: HTML.Element -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(U,U,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: HTML.Element) ->
+                 HTML.$fShowElement_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowElement_$cshowList :: [HTML.Element] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ HTML.Element
+                   HTML.$fShowElement1) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $fShowElement_$cshowsPrec ::
+    GHC.Types.Int -> HTML.Element -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S(S),1*U(U)><S,1*U(U,U,1*U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: GHC.Types.Int) (w1 :: HTML.Element) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { HTML.Element ww3 ww4 ww5 ->
+                 HTML.$w$cshowsPrec2 ww1 ww3 ww4 ww5 } }) -}
+fb6c0f170c6fdb125f47054d6ebb9e17
+  $tc'Attribute :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   1525569068870686999##
+                   11805647897043076318##
+                   HTML.$trModule
+                   HTML.$tc'Attribute1) -}
+c5f786bacde1e884e095eb30198a9895
+  $tc'Attribute1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'Attribute"#) -}
+0dfbe9780f4a2312b7d882ecf03db838
+  $tc'AttributeKey :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   11956033462960404275##
+                   14705141300903915533##
+                   HTML.$trModule
+                   HTML.$tc'AttributeKey1) -}
+6c14e5f33d14e96cf3031d8be61ad4e0
+  $tc'AttributeKey1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'AttributeKey"#) -}
+4c9c5eef843fb918edf2edb58a5b8585
+  $tc'C:IsValue :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   6355758082420906784##
+                   1019783250038856981##
+                   HTML.$trModule
+                   HTML.$tc'C:IsValue1) -}
+ccebc04d488edd97532da218a8ade0c8
+  $tc'C:IsValue1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'C:IsValue"#) -}
+7e5f70c7d9b71869d0b75c397584f487
+  $tc'Element :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12529478982615337248##
+                   5156893589025263840##
+                   HTML.$trModule
+                   HTML.$tc'Element1) -}
+4f3f196b565cf1cc3e0125b93fc46547
+  $tc'Element1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'Element"#) -}
+63381a8389b4bc2ea762f43fceef4a1a
+  $tc'ElementContent :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   6698060788206448913##
+                   18003740470031563293##
+                   HTML.$trModule
+                   HTML.$tc'ElementContent1) -}
+e3eed9213f021c2377dda10d45128017
+  $tc'ElementContent1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'ElementContent"#) -}
+8c51597c0f82c33dbc4b2b3638d1b1f3
+  $tc'TextContent :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   3711181670154515926##
+                   13902562478947166559##
+                   HTML.$trModule
+                   HTML.$tc'TextContent1) -}
+d1c69776a20541784dd883e24d9bcb9b
+  $tc'TextContent1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'TextContent"#) -}
+4ab7a9f636e92f4472734761e6c3faac
+  $tcAttribute :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   12995161979141005701##
+                   8425608425302786800##
+                   HTML.$trModule
+                   HTML.$tcAttribute1) -}
+ac1d589440dc374f293305d7c16f6253
+  $tcAttribute1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Attribute"#) -}
+a59500225969c3a2cb653ced14a53ab4
+  $tcAttributeKey :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7139284541330860213##
+                   2423988115875408840##
+                   HTML.$trModule
+                   HTML.$tcAttributeKey1) -}
+8c2aaa69ebf0b89f212e01d81d274c34
+  $tcAttributeKey1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "AttributeKey"#) -}
+930d91a56f2e647d794822cfe989a89d
+  $tcContentF :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   17846069253141809244##
+                   9511260605883188610##
+                   HTML.$trModule
+                   HTML.$tcContentF1) -}
+203adcb5d4ecd728af2404d1f3049cd8
+  $tcContentF1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "ContentF"#) -}
+f443f083e2201e4ac0993c0e1f143991
+  $tcElement :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   1053527333774831984##
+                   12231749963701719752##
+                   HTML.$trModule
+                   HTML.$tcElement1) -}
+9220cd49542b92b45cc916a07dccabaf
+  $tcElement1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Element"#) -}
+9231bfd6ba509a694f066226737d15e2
+  $tcIsValue :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   16561263050301705731##
+                   825900945565991143##
+                   HTML.$trModule
+                   HTML.$tcIsValue1) -}
+40a4b35a4ff04f1ced9fd36195f09d82
+  $tcIsValue1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "IsValue"#) -}
+2f43fb4e4568356e70141daa6b574742
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module HTML.$trModule2 HTML.$trModule1) -}
+ec99e0f3a8f7249c13562395931b08a0
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "HTML"#) -}
+fcdaee2846ee7411c4c32673781899aa
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "haskellHtml-0.1.0.0-BECCdle20pIAvIPQ9BjiaC"#) -}
+e017199cf84799daf8b1ef3166e30460
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> GHC.Base.String
+    -> GHC.Base.String
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 4, Strictness: <S,U><L,1*U><L,1*U><L,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Base.String)
+                   (ww2 :: GHC.Base.String)
+                   (w :: GHC.Base.String) ->
+                 let {
+                   p2 :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       HTML.$fShowAttribute6
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          HTML.$fShowAttribute5
+                          (GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.shows6
+                             (GHC.Show.showLitString
+                                ww1
+                                (GHC.Types.:
+                                   @ GHC.Types.Char
+                                   GHC.Show.shows6
+                                   (GHC.Base.++
+                                      @ GHC.Types.Char
+                                      HTML.$fShowAttribute4
+                                      (GHC.Base.++
+                                         @ GHC.Types.Char
+                                         HTML.$fShowAttribute3
+                                         (GHC.Types.:
+                                            @ GHC.Types.Char
+                                            GHC.Show.shows6
+                                            (GHC.Show.showLitString
+                                               ww2
+                                               (GHC.Types.:
+                                                  @ GHC.Types.Char
+                                                  GHC.Show.shows6
+                                                  (GHC.Base.++
+                                                     @ GHC.Types.Char
+                                                     HTML.$fShowAttribute2
+                                                     x))))))))))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False -> p2 w
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (p2 (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w)) }) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $w$cshowsPrec1 ::
+    GHC.Show.Show a =>
+    GHC.Prim.Int# -> HTML.ContentF a -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,1*U(1*C1(C1(U)),A,A)><S,U><S,1*U>,
+     Inline: [0],
+     Unfolding: (\ @ a2
+                   (w :: GHC.Show.Show a2)
+                   (ww :: GHC.Prim.Int#)
+                   (w1 :: HTML.ContentF a2) ->
+                 case w1 of wild {
+                   HTML.TextContent b1 b2
+                   -> let {
+                        g :: GHC.Base.String -> GHC.Base.String
+                        = GHC.Show.showsPrec @ a2 w HTML.$fShowContentF10 b2
+                      } in
+                      let {
+                        p2 :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,U> -}
+                        = \ (x :: GHC.Base.String) ->
+                          GHC.Base.++
+                            @ GHC.Types.Char
+                            HTML.$fShowContentF9
+                            (GHC.Types.:
+                               @ GHC.Types.Char
+                               GHC.Show.shows6
+                               (GHC.Show.showLitString
+                                  b1
+                                  (GHC.Types.:
+                                     @ GHC.Types.Char
+                                     GHC.Show.shows6
+                                     (GHC.Types.: @ GHC.Types.Char GHC.Show.showSpace1 (g x)))))
+                      } in
+                      case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.>=# ww 11#) of wild1 {
+                        GHC.Types.False -> p2
+                        GHC.Types.True
+                        -> \ (x :: GHC.Base.String) ->
+                           GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.shows7
+                             (p2 (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 x)) }
+                   HTML.ElementContent b1 b2
+                   -> let {
+                        f :: GHC.Base.String -> GHC.Base.String
+                        = case b1 of ww1 { HTML.Element ww2 ww3 ww4 ->
+                          HTML.$w$cshowsPrec2 11# ww2 ww3 ww4 }
+                      } in
+                      let {
+                        g :: GHC.Base.String -> GHC.Base.String
+                        = GHC.Show.showsPrec @ a2 w HTML.$fShowContentF10 b2
+                      } in
+                      case GHC.Prim.tagToEnum#
+                             @ GHC.Types.Bool
+                             (GHC.Prim.>=# ww 11#) of wild1 {
+                        GHC.Types.False
+                        -> \ (x :: GHC.Base.String) ->
+                           GHC.Base.++
+                             @ GHC.Types.Char
+                             HTML.$fShowContentF3
+                             (f (GHC.Types.: @ GHC.Types.Char GHC.Show.showSpace1 (g x)))
+                        GHC.Types.True
+                        -> \ (x :: GHC.Base.String) ->
+                           GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.shows7
+                             (GHC.Base.++
+                                @ GHC.Types.Char
+                                HTML.$fShowContentF3
+                                (f (GHC.Types.:
+                                      @ GHC.Types.Char
+                                      GHC.Show.showSpace1
+                                      (g (GHC.Types.:
+                                            @ GHC.Types.Char
+                                            GHC.Show.shows4
+                                            x))))) } }) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $w$cshowsPrec2 ::
+    GHC.Prim.Int#
+    -> GHC.Base.String
+    -> [HTML.Attribute]
+    -> GHC.Base.Maybe (HTML.Content ())
+    -> GHC.Show.ShowS
+  {- Arity: 4, Strictness: <S,U><L,U><L,U><L,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Base.String)
+                   (ww2 :: [HTML.Attribute])
+                   (ww3 :: GHC.Base.Maybe (HTML.Content ())) ->
+                 let {
+                   f :: GHC.Base.String -> GHC.Base.String
+                   = GHC.Show.$fShowMaybe_$cshowsPrec
+                       @ (Control.Monad.Free.Free HTML.ContentF ())
+                       HTML.$fShowContentF_$s$fShowFree
+                       HTML.$fShowContentF2
+                       ww3
+                 } in
+                 let {
+                   p2 :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String) ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       HTML.$fShowContentF7
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          HTML.$fShowContentF6
+                          (GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.shows6
+                             (GHC.Show.showLitString
+                                ww1
+                                (GHC.Types.:
+                                   @ GHC.Types.Char
+                                   GHC.Show.shows6
+                                   (GHC.Base.++
+                                      @ GHC.Types.Char
+                                      HTML.$fShowAttribute4
+                                      (GHC.Base.++
+                                         @ GHC.Types.Char
+                                         HTML.$fShowContentF5
+                                         (let {
+                                            s :: GHC.Base.String
+                                            = GHC.Base.++
+                                                @ GHC.Types.Char
+                                                HTML.$fShowAttribute4
+                                                (GHC.Base.++
+                                                   @ GHC.Types.Char
+                                                   HTML.$fShowContentF4
+                                                   (f (GHC.Base.++
+                                                         @ GHC.Types.Char
+                                                         HTML.$fShowAttribute2
+                                                         x)))
+                                          } in
+                                          case ww2 of wild {
+                                            [] -> GHC.CString.unpackAppendCString# "[]"# s
+                                            : x1 xs
+                                            -> GHC.Types.:
+                                                 @ GHC.Types.Char
+                                                 GHC.Show.showList__2
+                                                 (case x1 of ww4 { HTML.Attribute ww5 ww6 ->
+                                                  HTML.$w$cshowsPrec
+                                                    0#
+                                                    ww5
+                                                    ww6
+                                                    (let {
+                                                       lvl35 :: [GHC.Types.Char]
+                                                       = GHC.Types.:
+                                                           @ GHC.Types.Char
+                                                           GHC.Show.showList__1
+                                                           s
+                                                     } in
+                                                     letrec {
+                                                       showl :: [HTML.Attribute] -> GHC.Base.String
+                                                         {- Arity: 1, Strictness: <S,1*U> -}
+                                                       = \ (ds2 :: [HTML.Attribute]) ->
+                                                         case ds2 of wild1 {
+                                                           [] -> lvl35
+                                                           : y ys
+                                                           -> GHC.Types.:
+                                                                @ GHC.Types.Char
+                                                                GHC.Show.shows5
+                                                                (case y of ww7 { HTML.Attribute ww8 ww9 ->
+                                                                 HTML.$w$cshowsPrec
+                                                                   0#
+                                                                   ww8
+                                                                   ww9
+                                                                   (showl ys) }) }
+                                                     } in
+                                                     showl xs) }) })))))))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False -> p2
+                   GHC.Types.True
+                   -> \ (x :: GHC.Base.String) ->
+                      GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (p2 (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 x)) }) -}
+d7b3c0e8d56a5b1231c36589061c8b9c
+  $w$s$cshowsPrec ::
+    GHC.Prim.Int#
+    -> HTML.ContentF (Control.Monad.Free.Free HTML.ContentF ())
+    -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,U><S,1*U>, Inline: [0] -}
+b3169dfe15cc8f36e8f9973b42d99b7f
+  $wgo :: [HTML.Attribute] -> (# [()], GHC.Base.String #)
+  {- Arity: 1, Strictness: <S,1*U>, Inline: [0] -}
+ea05abc0b68642114669410645ed6c76
+  data Attribute
+    = Attribute {_key :: GHC.Base.String, _value :: GHC.Base.String}
+e967a91ca94d853e17ab466b192cbf60
+  type role AttributeKey phantom
+  newtype AttributeKey a = AttributeKey GHC.Base.String
+d7b3c0e8d56a5b1231c36589061c8b9c
+  type Content a = Control.Monad.Free.Free HTML.ContentF a
+d7b3c0e8d56a5b1231c36589061c8b9c
+  data ContentF a
+    = TextContent GHC.Base.String a | ElementContent HTML.Element a
+d7b3c0e8d56a5b1231c36589061c8b9c
+  data Element
+    = Element {_name :: GHC.Base.String,
+               _attribs :: [HTML.Attribute],
+               _content :: GHC.Base.Maybe (HTML.Content ())}
+6e458b192859013fb0a9cca1cda86c64
+  class IsValue a where
+    toValue :: a -> GHC.Base.String
+    {-# MINIMAL toValue #-}
+416bf943195ebf564c5610ec42d48a98
+  _attribs :: HTML.Element -> [HTML.Attribute]
+  RecSel Left HTML.Element
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: HTML.Element) ->
+                 case ds of wild { HTML.Element ds1 ds2 ds3 -> ds2 }) -}
+34e7811651f9c65154f62f619b9d1e0b
+  _class :: HTML.AttributeKey GHC.Base.String
+  {- Unfolding: InlineRule (0, True, True)
+                HTML._class1
+                  `cast`
+                (Sym (HTML.N:AttributeKey[0] <GHC.Base.String>_P)) -}
+e0e5d7d05de84b3270dfb59c071c7104
+  _class1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "class"#) -}
+e14d65fdb85fb57efc73847ec93263eb
+  _content :: HTML.Element -> GHC.Base.Maybe (HTML.Content ())
+  RecSel Left HTML.Element
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLS),1*U(A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: HTML.Element) ->
+                 case ds of wild { HTML.Element ds1 ds2 ds3 -> ds3 }) -}
+a5f80e50edcd461172bdf6bf16743142
+  _key :: HTML.Attribute -> GHC.Base.String
+  RecSel Left HTML.Attribute
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: HTML.Attribute) ->
+                 case ds of wild { HTML.Attribute ds1 ds2 -> ds1 }) -}
+e605fc27fb890302b593621bc489dda1
+  _name :: HTML.Element -> GHC.Base.String
+  RecSel Left HTML.Element
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(1*U,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: HTML.Element) ->
+                 case ds of wild { HTML.Element ds1 ds2 ds3 -> ds1 }) -}
+0c6173cbda8d60dcc585a65f6a8d1618
+  _value :: HTML.Attribute -> GHC.Base.String
+  RecSel Left HTML.Attribute
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: HTML.Attribute) ->
+                 case ds of wild { HTML.Attribute ds1 ds2 -> ds2 }) -}
+0071ef895de6d3cd36fcf225cd890620
+  a :: [HTML.Attribute] -> HTML.Content () -> HTML.Element
+  {- Arity: 2, Strictness: <L,U><L,U>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (attribs :: [HTML.Attribute]) (content :: HTML.Content ()) ->
+                 HTML.Element
+                   HTML.a1
+                   attribs
+                   (GHC.Base.Just @ (HTML.Content ()) content)) -}
+f532cc54ada10bc8961d4cc988fa0670
+  a1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "a"#) -}
+f211c7a74d0cc7b18092be7aadd8145b
+  attribute ::
+    HTML.IsValue a => HTML.AttributeKey a -> a -> HTML.Attribute
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,1*C1(U)><L,U><L,U>m,
+     Unfolding: InlineRule (3, True, False)
+                (\ @ a2
+                   ($dIsValue :: HTML.IsValue a2)
+                   (ds :: HTML.AttributeKey a2)
+                   (value :: a2) ->
+                 HTML.Attribute
+                   ds `cast` (HTML.N:AttributeKey[0] <a2>_P)
+                   ($dIsValue `cast` (HTML.N:IsValue[0] <a2>_N) value)) -}
+a6fa1c2d107904363b5acd381c98d1bb
+  elem :: HTML.Element -> HTML.Content ()
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2,
+     Unfolding: InlineRule (1, True, False)
+                (\ (elt :: HTML.Element) ->
+                 Control.Monad.Free.Free
+                   @ HTML.ContentF
+                   @ ()
+                   (HTML.ElementContent
+                      @ (Control.Monad.Free.Free HTML.ContentF ())
+                      elt
+                      (Control.Monad.Free.Pure @ HTML.ContentF @ () GHC.Tuple.()))) -}
+5ecd8d70fd3308b2e0f69f22bf718fd1
+  height :: HTML.AttributeKey GHC.Types.Int
+  {- Unfolding: InlineRule (0, True, True)
+                HTML.height1
+                  `cast`
+                (Sym (HTML.N:AttributeKey[0] <GHC.Types.Int>_P)) -}
+dcc9701835510c993b4337cee08bdc77
+  height1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "height"#) -}
+a6d23232193d60cbe28bf732051aa87b
+  href :: HTML.AttributeKey GHC.Base.String
+  {- Unfolding: InlineRule (0, True, True)
+                HTML.href1
+                  `cast`
+                (Sym (HTML.N:AttributeKey[0] <GHC.Base.String>_P)) -}
+2951a3da98ab0d688c3b2d7a7475ad24
+  href1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "href"#) -}
+9aa93c34aacc24645bea8c3ba47ef277
+  img :: [HTML.Attribute] -> HTML.Element
+  {- Arity: 1, Strictness: <L,U>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (attribs :: [HTML.Attribute]) ->
+                 HTML.Element
+                   HTML.img1
+                   attribs
+                   (GHC.Base.Nothing @ (HTML.Content ()))) -}
+24410bbbf1b27c8cb4b61b0d50cbea4d
+  img1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "img"#) -}
+b058d54626435513af66be7ba440d12b
+  p :: [HTML.Attribute] -> HTML.Content () -> HTML.Element
+  {- Arity: 2, Strictness: <L,U><L,U>m,
+     Unfolding: InlineRule (2, True, False)
+                (\ (attribs :: [HTML.Attribute]) (content :: HTML.Content ()) ->
+                 HTML.Element
+                   HTML.p1
+                   attribs
+                   (GHC.Base.Just @ (HTML.Content ()) content)) -}
+9bc4b7b0978abb1389965f3bcabbb691
+  p1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "p"#) -}
+71411bf706625e5cd1f57861a0ec77f9
+  render :: HTML.Element -> GHC.Base.String
+  {- Arity: 1, Strictness: <L,1*U(1*U,1*U,A)>,
+     Unfolding: (\ (x :: HTML.Element) ->
+                 GHC.Base.++
+                   @ GHC.Types.Char
+                   HTML.render2
+                   (case x of wild { HTML.Element x1 x2 x3 ->
+                    GHC.Base.++
+                      @ GHC.Types.Char
+                      x1
+                      (case HTML.$wgo x2 of ww { (#,#) ww1 ww2 ->
+                       GHC.Base.++
+                         @ GHC.Types.Char
+                         ww2
+                         (case HTML.render1 ret_ty [GHC.Types.Char] of {}) }) })) -}
+47973faa3c8582eba25606119789e89b
+  render1 ::
+    GHC.Base.Maybe (HTML.Content ())
+    -> Control.Monad.Trans.Writer.Lazy.Writer GHC.Base.String ()
+  {- Strictness: x -}
+b152119a0855471df117d55143d587eb
+  render2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "<"#) -}
+c7d1c59d5b090d5b534190233c0eeb15
+  src :: HTML.AttributeKey GHC.Base.String
+  {- Unfolding: InlineRule (0, True, True)
+                HTML.src1
+                  `cast`
+                (Sym (HTML.N:AttributeKey[0] <GHC.Base.String>_P)) -}
+271bccbacda53c1956e1ee74ca54071f
+  src1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "src"#) -}
+b0669888f0a1d93396011df19f288135
+  text :: GHC.Base.String -> HTML.Content ()
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m2,
+     Unfolding: InlineRule (1, True, False)
+                (\ (str :: GHC.Base.String) ->
+                 Control.Monad.Free.Free
+                   @ HTML.ContentF
+                   @ ()
+                   (HTML.TextContent
+                      @ (Control.Monad.Free.Free HTML.ContentF ())
+                      str
+                      (Control.Monad.Free.Pure @ HTML.ContentF @ () GHC.Tuple.()))) -}
+b14473776431cf2447720e8b17440c2f
+  width :: HTML.AttributeKey GHC.Types.Int
+  {- Unfolding: InlineRule (0, True, True)
+                HTML.width1
+                  `cast`
+                (Sym (HTML.N:AttributeKey[0] <GHC.Types.Int>_P)) -}
+2afe385cad00b96fa7750807fd2ae500
+  width1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "width"#) -}
+instance GHC.Base.Functor [HTML.ContentF] = HTML.$fFunctorContentF
+instance HTML.IsValue [GHC.Types.Int] = HTML.$fIsValueInt
+instance HTML.IsValue [[]] = HTML.$fIsValue[]
+instance GHC.Show.Show [HTML.Attribute] = HTML.$fShowAttribute
+instance GHC.Show.Show [HTML.ContentF] = HTML.$fShowContentF
+instance GHC.Show.Show [HTML.Element] = HTML.$fShowElement
+"SPEC $cshow @ (Free ContentF ())" [ALWAYS] forall ($dShow :: GHC.Show.Show
+                                                                (Control.Monad.Free.Free
+                                                                   HTML.ContentF ()))
+  HTML.$fShowContentF_$cshow @ (Control.Monad.Free.Free
+                                  HTML.ContentF ())
+                             $dShow
+  = HTML.$fShowContentF_$s$cshow
+"SPEC $cshowList @ (Free ContentF ())" [ALWAYS] forall ($dShow :: GHC.Show.Show
+                                                                    (Control.Monad.Free.Free
+                                                                       HTML.ContentF ()))
+  HTML.$fShowContentF_$cshowList @ (Control.Monad.Free.Free
+                                      HTML.ContentF ())
+                                 $dShow
+  = HTML.$fShowContentF_$s$cshowList
+"SPEC $cshowsPrec @ (Free ContentF ())" [ALWAYS] forall ($dShow :: GHC.Show.Show
+                                                                     (Control.Monad.Free.Free
+                                                                        HTML.ContentF ()))
+  HTML.$fShowContentF_$cshowsPrec @ (Control.Monad.Free.Free
+                                       HTML.ContentF ())
+                                  $dShow
+  = HTML.$fShowContentF_$s$cshowsPrec
+"SPEC $fShowContentF @ (Free ContentF ())" [ALWAYS] forall ($dShow :: GHC.Show.Show
+                                                                        (Control.Monad.Free.Free
+                                                                           HTML.ContentF ()))
+  HTML.$fShowContentF @ (Control.Monad.Free.Free HTML.ContentF ())
+                      $dShow
+  = HTML.$fShowContentF_$s$fShowContentF
+"SPEC/HTML $fShowFree @ ContentF @ ()" [ALWAYS] forall ($dShow1 :: GHC.Show.Show
+                                                                     ())
+                                                       ($dShow :: GHC.Show.Show
+                                                                    (HTML.ContentF
+                                                                       (Control.Monad.Free.Free
+                                                                          HTML.ContentF ())))
+  Control.Monad.Free.$fShowFree @ HTML.ContentF @ () $dShow $dShow1
+  = HTML.$fShowContentF_$s$fShowFree
+"SPEC/HTML $fShowFree_$cshowList @ ContentF @ ()" [ALWAYS] forall ($dShow1 :: GHC.Show.Show
+                                                                                ())
+                                                                  ($dShow :: GHC.Show.Show
+                                                                               (HTML.ContentF
+                                                                                  (Control.Monad.Free.Free
+                                                                                     HTML.ContentF
+                                                                                     ())))
+  Control.Monad.Free.$fShowFree_$cshowList @ HTML.ContentF
+                                           @ ()
+                                           $dShow
+                                           $dShow1
+  = HTML.$fShowContentF_$s$fShowFree_$cshowList
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
