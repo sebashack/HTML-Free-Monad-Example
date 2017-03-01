@@ -50,7 +50,7 @@ instance Functor ContentF where
   fmap f (TextContent str x) = TextContent str (f x)
   fmap f (ElementContent elt x) = ElementContent elt (f x)
 
-type Content = Free ContentF
+type Content a = Free ContentF a
 
 data Element = Element {
     _name :: String
@@ -58,6 +58,7 @@ data Element = Element {
   , _content :: Maybe (Content ())
   } deriving Show
 makeLenses ''Element
+
 
 
 -- << Valid Attribute Keys
@@ -113,6 +114,19 @@ attribute ::IsValue a =>  AttributeKey a -> a -> Attribute
 attribute (AttributeKey key) value = Attribute key (toValue value)
 
 
+-- My specific version of Purescripts's runFreeM: This function interprets a Free
+-- Monad in a given monadic context.
+interpretFreeM :: (Monad m, Functor f) =>
+                  (f (Free f a) -> m (Free f a))
+               -> Free f a
+               -> m a
+interpretFreeM f free =
+  case runFree free of
+    Pure a -> return a
+    Free x -> do
+      rest <- f x
+      interpretFreeM f rest
+
 
 -- << Interpreter
 render :: Element -> String
@@ -137,7 +151,10 @@ render = execWriter . renderElement
           renderContent Nothing = tell " />"
           renderContent (Just content) = do
             tell ">"
-            undefined
+            interpretFreeM renderContentItem content
+            tell "</"
+            tell $ view name elt
+            tell ">"
           renderContentItem :: ContentF (Content a)
                             -> Writer String (Content a)
           renderContentItem (TextContent str rest) = do
@@ -146,4 +163,3 @@ render = execWriter . renderElement
           renderContentItem (ElementContent elt' rest) = do
             renderElement elt'
             return rest
---type Content = Free ContentF
